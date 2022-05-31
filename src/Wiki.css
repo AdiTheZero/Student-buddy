@@ -1,0 +1,69 @@
+#Box{
+    background-color: #1d1d1d;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    height: 100px;
+    padding-right: 50px;
+
+}
+
+#searchBox{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;    
+    font-size: larger;
+    padding-left: 10px;
+}
+
+
+#btn{
+    margin-left: 50px;
+    float: left;
+    width: 43px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#btn:hover{
+    background: #0b7dda;    
+}
+
+#downBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    font-size: large;
+    background-color: rgb(137, 157, 150);
+
+}
+#downBox a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#downBox a:hover{
+    font-size: 2.5em;
+    color: rgb(241, 31, 49);
+}
+#ind{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+

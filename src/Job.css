@@ -1,0 +1,91 @@
+#jobB{
+    background-color: #d1cdcd;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.heading{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBox:hover{
+    font-size: 1.5rem;
+}
+
+.inputBox input{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;    
+    font-size: larger;
+    padding-left: 10px;
+    margin-left: -29%;
+}
+
+
+
+#imgB{
+    border-radius: 50%;
+    float: right;
+    width: 7%;
+}
+
+
+#jobM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://img.freepik.com/free-vector/team-leader-teamwork-concept_74855-6671.jpg?t=st=1653813163~exp=1653813763~hmac=dd0686069fe4433c809ae3775d44f7cbc27838bec9cf26516cdefaeb2035fa4d&w=740") no-repeat center center fixed; 
+    background-size: cover;
+   
+}
+
+#jobR{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    background-color: rgba(60, 61, 59, 0.172);
+    width: 50%;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+
+
+}
+
+#jobR a{
+    text-decoration: none;
+    color: black;
+}
+
+#jobR a:hover{
+    /* color: #eaff00; */
+    font-weight: 900;
+}
+
+#jobR a span{
+    color: rgb(233, 89, 89);
+}
+
+#jobR:hover{
+    font-size: 2rem;
+    font-weight: 900;
+}

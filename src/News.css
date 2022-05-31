@@ -1,0 +1,39 @@
+.newsDiv{
+    background: url("https://previews.123rf.com/images/irstone/irstone1407/irstone140700121/29708539-vintage-news-paper-background.jpg") no-repeat fixed center;
+    background-size: cover;
+   
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    /* height: 100vh; */
+}
+
+#box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.80), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+    width: 80%;
+    height: 80vh; 
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+#box a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#box a:hover{
+    font-size: 1.7em;
+    color: rgb(255, 145, 0);
+}
+#sp{
+    text-align: center;
+
+}

@@ -1,0 +1,60 @@
+html{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#bookM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=990&q=80") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#bookR{
+
+ 
+    background-color: rgba(168, 169, 166, 0.591);
+    width: 50%;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+
+
+}
+
+#bookR a{
+    text-decoration: none;
+    color: black;
+}
+
+#bookR a:hover{
+    /* color: #eaff00; */
+    color: crimson;
+    font-weight: 900;
+}
+
+#bookR a span{
+    color: rgb(233, 89, 89);
+}
+
+#bookR:hover{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#imgBook{
+    border-radius: 50%;
+    float: right;
+    width: 7%;
+}
+
+#book{
+    background-color: crimson;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}

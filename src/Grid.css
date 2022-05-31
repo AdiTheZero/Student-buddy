@@ -1,0 +1,36 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: url(https://cdn.wallpapersafari.com/59/79/ZrNIRQ.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    }
+    
+    .container{
+    padding-left: 96px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.991), 0 6px 20px 0 rgba(255, 255, 255, 0.779);
+    
+    }
+
+.card{
+    cursor: pointer;
+   }
+
+.card:hover{
+    transform: scale(2);
+    background: #b6fab8a2;
+    z-index: 2;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    color:rgb(255, 255, 255)
+}
+
+.m-card{
+    margin-bottom: 13%;
+}
+
+.card-title{
+    color: rgb(239, 61, 48);
+    text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+#consBox{
+    background: url("https://cdn.pixabay.com/photo/2018/06/08/00/48/developer-3461405_960_720.png") no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    background-color: rgba(60, 61, 59, 0.329);
+    width: 50%;
+    margin-top: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+
+}
+#card a{
+    text-decoration: none;
+    color: #FEFEFE;
+    font-size: 1.6em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#card:hover{
+    font-size: 2em;
+    color: #00ff0d;
+}
+
+#card a:hover{
+    font-size: 1.6em;
+    color: #000000;
+}
