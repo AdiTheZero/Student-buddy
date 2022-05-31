@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://adithezero.github.io/Student-buddy",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
