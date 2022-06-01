@@ -1,11 +1,15 @@
 import React from "react";
 import { useState } from "react";
 import Speech from "./Speech";
+import { useEffect } from "react";
 import "./Wiki.css"
 function Wiki ()
 {
-    const [text,setText]=useState("");
+    const [text,setText]=useState("reactjs");
     const [results, setResults] = useState([]);
+    useEffect (()=>{
+        search();
+    },[]);
     function search()
     {   
     const url = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&origin=*&srlimit=25&utf8=&format=json&srsearch=${text}`;
@@ -26,7 +30,7 @@ function Wiki ()
         <div id="ind"><Speech></Speech></div>
         <div id="Box">
         <img id="img" src="https://raw.githubusercontent.com/JuanPabllo/Wiki-Search/main/assets/img/wikipedia.png"></img>
-        <input id="searchBox" type="search" onChange={changetext} />
+        <input id="searchBox" type="search" onChange={changetext} placeholder="SEARCH HERE" />
         <br/>
         <button id="btn" onClick={search}><i class="fa fa-search"></i></button>
         </div>

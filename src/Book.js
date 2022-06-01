@@ -1,11 +1,15 @@
 import React from "react";
 import { useState } from "react";
+import { useEffect } from "react";
 import Speech from "./Speech";
 import "./Book.css";
 function Book ()
 {
-    const [text,setText]=useState("");
+    const [text,setText]=useState("c programming");
     const [results, setResults] = useState([]);
+    useEffect (()=>{
+        search();
+    },[]);
     function search()
     {   
     const url = `https://api.itbook.store/1.0/search/=${text}`;
@@ -27,7 +31,7 @@ function Book ()
             <div id="book">
                 <Speech></Speech>
                <span className="heading"> <h2> Search Any Book Here</h2></span> 
-                 <span className="inputBox"><input type="search" placeholder="Enter Book Name" onChange={changetext} />
+                 <span className="inputBox"><input type="search" placeholder="Enter Book Name" onChange={changetext} defaultValue="" />
                 <button id="btn" onClick={search}><i class="fa fa-search"></i></button>
                 </span> 
                 <img id="imgBook" src="https://www.logoinspirations.co/wp-content/uploads/2019/07/book-logo.jpg"></img>

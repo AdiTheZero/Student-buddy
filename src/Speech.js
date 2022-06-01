@@ -22,11 +22,15 @@ else if (website.toLowerCase()=='google')
 {
     window.open('http://google.com/')
 }
+else if (website.toLowerCase()=='list')
+{
+    window.open('https://posttorajdeep.github.io/ToDo-List/')
+}
 else if (website.toLowerCase()=='news')
 {
     Navigate('/news');
 }
-else if (website.toLowerCase()=='wiki')
+else if (website.toLowerCase()=='wikipedia')
 {
     Navigate('/wiki');
 }
@@ -38,7 +42,7 @@ else if (website.toLowerCase()=='book')
 {
     Navigate('/book');
 }
-else if (website.toLowerCase()=='cons')
+else if (website.toLowerCase()=='contest')
 {
     Navigate('/cons');
 }

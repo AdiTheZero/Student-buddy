@@ -1,12 +1,14 @@
 import React from "react";
 import "./Grid.css"
 import { useNavigate } from 'react-router-dom';
+import Speech from "./Speech";
 function Gri()
 {
     let Navigate=useNavigate();
     return(
-        
-            <div className="main-container">        
+        <>
+             <div id="hh"><div id="ind"><Speech></Speech></div><h1>Welcome To<br></br>Student Buddy</h1></div>
+            <div className="main-container">     
                 <div className="container">
                     <div className="row mt-5">
                         <div className="col">
@@ -51,24 +53,26 @@ function Gri()
                         <div className="col">
                         <div onClick={()=>Navigate('/cons')} class="card" style={{ width: '18rem' , height:'10rem'}}>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Coding Contest</h5>
+                                <p class="card-text">Contestants are required to write computer programs capable of solving each problem.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                        <div   class="card m-card" style={{ width: '18rem' , height:'10rem'}}>
+                        
+                        <div  class="card m-card" style={{ width: '18rem' , height:'10rem'}}>
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a className="Ctext" href="https://posttorajdeep.github.io/ToDo-List/">
+                                <h5 class="card-title">To-Do-List</h5>  
+                                <p class="card-text">A list of things that one wants to get done or that need to get done: No, I haven't bought the gift yet, but it's on my to-do list.</p>
+                            </a>   
                             </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
+            </>   
     )
 }
 export default Gri;

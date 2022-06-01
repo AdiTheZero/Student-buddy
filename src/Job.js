@@ -37,7 +37,7 @@ function Job ()
             <div id="jobB">
                 <Speech></Speech>
                <span className="heading"> <h2> Search your Job Here</h2></span> 
-                 <span className="inputBox"><input type="search" placeholder="Enter Your Skill" onChange={changetext} defaultValue='java' />
+                 <span className="inputBox"><input type="search" placeholder="Enter Your Skill" onChange={changetext} defaultValue='' />
                 <button id="btn" onClick={search}><i class="fa fa-search"></i></button>
                 </span> 
                 <img id="imgB" src="https://st4.depositphotos.com/22951204/31548/v/380/depositphotos_315488132-stock-illustration-job-search-business-logo-designs.jpg?forcejpeg=true"></img>

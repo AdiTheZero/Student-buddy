@@ -34,3 +34,23 @@
     color: rgb(239, 61, 48);
     text-decoration: underline;
 }
+
+.Ctext{
+    text-decoration: none;
+    color: black;
+}
+
+.Ctext:hover{
+    color:rgb(255, 255, 255)
+}
+
+#hh{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    text-align: center;
+    width:100%;
+    top:10px;
+
+}
